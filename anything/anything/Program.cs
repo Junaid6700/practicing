@@ -14,8 +14,7 @@ namespace ArraysPractice
             {"C11", "Eng", "40", "0", "" },
             {"C12", "Isl", "40", "0", "" },
             {"C13", "PST", "40", "0", "" },
-            {"C14", "Urdu", "40", "0", "" },
-            {"C15", "Biology", "40", "0", "" }
+            {"C14", "Urdu", "40", "0", "" }
         };
 
         static string[][] students = new string[][]
@@ -150,11 +149,6 @@ namespace ArraysPractice
                 Console.WriteLine($"{courses[i, 0]} \t{courses[i, 1]} \t {courses[i, 3]} \t {courses[i, 2]} \t {courses[i, 4]}");
 
             }
-        }
-
-                static void DisplayRandomStuff()
-        {
-            Console.WriteLine("trees and humans and tables and chairs");
         }
         static void DisplayEnrolledStudentsInCourses(string courseID)
         {
