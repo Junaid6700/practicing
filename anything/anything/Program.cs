@@ -14,7 +14,9 @@ namespace ArraysPractice
             {"C11", "Eng", "40", "0", "" },
             {"C12", "Isl", "40", "0", "" },
             {"C13", "PST", "40", "0", "" },
-            {"C14", "Urdu", "40", "0", "" }
+            {"C14", "Urdu", "40", "0", "" },
+            {"C15", "Calculus", "40", "0", "" }
+
         };
 
         static string[][] students = new string[][]
