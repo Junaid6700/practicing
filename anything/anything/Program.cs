@@ -151,6 +151,11 @@ namespace ArraysPractice
 
             }
         }
+
+                static void DisplayRandomStuff()
+        {
+            Console.WriteLine("trees and humans and tables and chairs");
+        }
         static void DisplayEnrolledStudentsInCourses(string courseID)
         {
             Console.WriteLine("Enrolled Students for COurse " + courseID);
